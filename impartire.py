@@ -1,5 +1,6 @@
-x = 5
-y = 10
+x = int(input("Valoarea primului element: "))
+y = int(input("Valoarea al doilea element: "))
 sum = x + y;
-imp= sum / 3;
-print ("Impartirea este: ", imp)
+imp = int(input("Impartim la: "))
+rezultat= sum/imp
+print ("Impartirea este: ", rezultat)
